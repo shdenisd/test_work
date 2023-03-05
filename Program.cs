@@ -32,7 +32,6 @@ void printArray(string[] array)
     }
 }
 
-/*
 void Filtration(ref string[] array)
 {
     int counter = 0;
@@ -61,11 +60,10 @@ void Filtration(ref string[] array)
 
     array = newArray;
 }
-*/
 
 
 string[] array = CreateRandomArrayOfStrings(5, 10, 1, 15);
 printArray(array);
-//Filtration(ref array);
+Filtration(ref array);
 System.Console.WriteLine();
 printArray(array);
